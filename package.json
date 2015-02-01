@@ -1,0 +1,31 @@
+{
+	"name": "mentalvein",
+	"version": "0.0.1",
+	"description": "Remote API in Node.js for Mental Vein",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://mentalvein.com",
+	"keywords": ["mentalvein", "crud", "api", "json"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mentalvein/node.git"
+	},
+	"bugs": {
+		"url": "http://github.com/mentalvein/node/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.makesites.org/licenses/MIT"
+	}],
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"passport": "0.2.1",
+		"passport-mentalvein": "0.x",
+		"request": "2.51.0",
+		"underscore": "1.7.0"
+	}
+}
